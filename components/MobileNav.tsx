@@ -28,17 +28,16 @@ const MobileNav = ({ user} : MobileNavProps) => {
             </SheetTrigger>
             <SheetContent side='left' className="border-none bg-white">
                 <div className="flex items-center mb-12 cursor-pointer gap-1 px-4">
-                    <Link href="/">
+                    <Link href="/" className = "cursor-pointer flex items-center gap-1">
                         <Image
                             src="/icons/logo.svg"
                             alt="Horizon logo"
-                            width={24}
-                            height={24}
-                            className="size-[24px] max-xl:size-14"
+                            width={34}
+                            height={34}
                         />
-                    </Link>
-                    <Link href="/" className="text-26 font-ibm-plex-serif font-bold text-black-1">
-                        Horizon
+                        <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">
+                            Horizon
+                        </h1>
                     </Link>
                 </div>
                     <div className = "mobilenav-sheet">
